@@ -1,6 +1,7 @@
 function time (resolve,reject){
     var timer = Math.ceil(Math.random()*10)
     console.log('随机数为'+timer)
+    //promise
     if(timer<=5){
         resolve('success')
         console.log('成功')
